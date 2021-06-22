@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<h1><span>Play </span><i class="fa fa-hand-scissors"></i>Rock Paper Scissors</h1>
+	</header>
+
+
+	<div class="score-board">
+		<div id="user-label" class="badge">User</div>
+		<div id="comp-label" class="badge">Comp</div>
+
+		<span id="user-score">0</span>:<span id="computer-score">0</span>
+	</div>
+
+
+	<div class="result">
+		<p>Paper covers rock, You win!</p>
+	</div>
+
+
+	<div class="choices">
+		<div class="choice" id="r">
+			<img src="rock1.png" alt="">
+		</div>
+		<div class="choice" id="p">
+			<img src="paper.png" alt="">
+		</div>
+		<div class="choice" id="s">
+			<img src="scissors.png" alt="">
+		</div>
+	</div>
+
+	<div>
+		
+		<p id="action-message"> Make your move</p>
+	</div>
+
+	<script type="text/javascript" src="main.js" charset="utf-8"></script>
+</body>
+</html>

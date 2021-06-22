@@ -1,0 +1,47 @@
+.grid{
+	height: 560px;
+	min-width: 560px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(109, 127, 151, 0.5);
+	color: #85796b;
+	padding: 5px;
+	border-radius: 15px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.grid div{
+	height:70px;
+	width: 70px;
+}
+
+body{
+	display: flex;
+	background-image: url("bg.png");
+	max-width: 100vh;
+}
+
+.score-board{
+	background:rgba(167,235,234,0.7);
+	display: flex;
+	padding-left: 50px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+	min-width: 300px;
+	margin-bottom: 300px;
+	margin-top: 200px;
+	margin-left: 80px;
+	align-items: center;
+	text-align: center;
+
+}
+
+#score, h2{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 80px;
+	font-weight: 400;
+	padding: 10px;
+	color: rgb(255,5,123);
+}
