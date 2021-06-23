@@ -777,7 +777,7 @@ footer span a:hover{
 		width: 20%;
 	}
 	.app i{
-		font-size: 40px;
+		font-size: 35px;
 	}
 }
 
@@ -801,6 +801,13 @@ footer span a:hover{
 	}
 	.skill > p{
 		font-size: 20px;
+		line-height: 20px;
+	}
+	.skill > img{
+		width: 80px;
+	}
+	.app i{
+		font-size: 30px;
 	}
 }
 
