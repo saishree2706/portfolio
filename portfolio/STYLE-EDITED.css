@@ -781,7 +781,7 @@ footer span a:hover{
 	}
 }
 
-@media (max-width: 500px){
+@media (max-width: 470px){
 	.max-width{
 		padding: 0 20px;
 	}
@@ -798,6 +798,12 @@ footer span a:hover{
 	}
 	.skill > img{
 		width: 80px;		
+	}
+	.app{
+		width: 20%;
+	}
+	.app i{
+		font-size: 35px;
 	}
 }
 
