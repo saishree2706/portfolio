@@ -796,6 +796,9 @@ footer span a:hover{
 		font-size: 18px;
 		padding: 8px 20px;
 	}
+	.skill > img{
+		width: 80px;		
+	}
 }
 
 
