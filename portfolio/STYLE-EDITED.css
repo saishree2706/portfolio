@@ -800,11 +800,14 @@ footer span a:hover{
 	.skills .skills-content{
 		margin: 20px 10%;
 	}
+	.skills > p{
+		font-size: 20px;
+	}
 	.app{
 		width: 20%;
 	}
 	.app i{
-		font-size: 30px;
+		font-size: 35px;
 	}
 }
 
