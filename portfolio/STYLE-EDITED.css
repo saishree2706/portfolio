@@ -796,18 +796,11 @@ footer span a:hover{
 		font-size: 18px;
 		padding: 8px 20px;
 	}
-	
-	.skills .skills-content{
-		margin: 20px 10%;
+	.skill{
+		width: 80px;
 	}
 	.skills > p{
 		font-size: 20px;
-	}
-	.app{
-		width: 20%;
-	}
-	.app i{
-		font-size: 35px;
 	}
 }
 
