@@ -797,13 +797,13 @@ footer span a:hover{
 		padding: 8px 20px;
 	}
 	.skill > img{
-		width: 80px;		
+		width: 50px;		
 	}
 	.app{
 		width: 20%;
 	}
 	.app i{
-		font-size: 35px;
+		font-size: 15px;
 	}
 }
 
