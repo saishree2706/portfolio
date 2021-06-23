@@ -777,7 +777,7 @@ footer span a:hover{
 		width: 20%;
 	}
 	.app i{
-		font-size: 35px;
+		font-size: 40px;
 	}
 }
 
@@ -799,7 +799,7 @@ footer span a:hover{
 	.skill{
 		width: 80px;
 	}
-	.skills > p{
+	.skill > p{
 		font-size: 20px;
 	}
 }
