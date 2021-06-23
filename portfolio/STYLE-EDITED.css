@@ -799,11 +799,13 @@ footer span a:hover{
 	.skill > img{
 		width: 50px;		
 	}
+	.skill > p{
+		font-size: 20px;
 	.app{
 		width: 20%;
 	}
 	.app i{
-		font-size: 15px;
+		font-size: 30px;
 	}
 }
 
