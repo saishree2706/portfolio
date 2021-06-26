@@ -627,10 +627,12 @@ section .title::after{
 /*Footer Section styling*/
 footer{
 	background: #111;
-	padding: 35px 23px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	color: #fff;
 	display: flex;
-    justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
 }
 footer span a{
 	color: #4D88FF;
@@ -786,7 +788,7 @@ footer span a:hover{
 		padding: 0 20px;
 	}
 	.home .home-content .text-2{
-		font-size: 50px;
+		font-size: 42px;
 	}
 	.home .home-content .text-3{
 		font-size: 27px;
@@ -796,8 +798,21 @@ footer span a:hover{
 		font-size: 18px;
 		padding: 8px 20px;
 	}
+	.skills .skills-content{
+		margin: 50px 10%;
+	}
+	.skill{
+		width: 80px;
+	}
+	.skill > p{
+		font-size: 18px;
+		line-height: 10px;
+	}
 	.skill > img{
-		width: 80px;		
+		width: 80px;
+	}
+	.app i{
+		font-size: 30px;
 	}
 }
 
